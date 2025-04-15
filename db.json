@@ -1,0 +1,177 @@
+{
+  "products": [
+    {
+      "id": "8",
+      "name": "Sản phẩm 1",
+      "giá": 10000,
+      "binhLuan": "Đẹp zai vkl",
+      "kichThuoc": "112",
+      "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Sản phẩm 2",
+      "giá": 10000,
+      "binhLuan": "Đẹp zai vkl",
+      "kichThuoc": 1,
+      "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+    },
+    {
+      "id": "8235",
+      "name": "Sản phẩm 3",
+      "giá": 100000,
+      "kichThuoc": "12",
+      "binhLuan": "sdasdasd",
+      "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+    },
+    {
+      "id": "d844",
+      "name": "Sản phẩm 4",
+      "giá": 12222,
+      "kichThuoc": "sdcsdf",
+      "binhLuan": "đsfsdf",
+      "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": "0487",
+      "name": "nguyen dang hop 1",
+      "tuoi": 12,
+      "Sdt": "0398966808",
+      "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+    },
+    {
+      "id": "5fee",
+      "name": "Nguyễn Quang huy",
+      "tuoi": 21,
+      "Sdt": "0976821211",
+      "hinhAnh": ""
+    },
+    {
+      "id": "7ee8",
+      "name": "nguyen dang hop",
+      "tuoi": 12,
+      "Sdt": "0398966808",
+      "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+    }
+  ],
+  "sale-orders": [
+    {
+      "id": "eaaa",
+      "name": "0487",
+      "code": "DH503590",
+      "customer": {
+        "name": "nguyen dang hop 1",
+        "phone": "0398966808",
+        "address": "ha noi"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "d844",
+            "name": "Sản phẩm 4",
+            "giá": 12222,
+            "kichThuoc": "sdcsdf",
+            "binhLuan": "đsfsdf",
+            "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+          },
+          "qty": 1
+        },
+        {
+          "product": {
+            "id": "9",
+            "name": "Sản phẩm 2",
+            "giá": 10000,
+            "binhLuan": "Đẹp zai vkl",
+            "kichThuoc": 1,
+            "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+          },
+          "qty": 1
+        }
+      ],
+      "status": "todo",
+      "total": 22222,
+      "discount": 0,
+      "shippingFee": 0,
+      "paymentMethod": "COD"
+    },
+    {
+      "id": "27e5",
+      "name": "0487",
+      "code": "123",
+      "customer": {
+        "name": "nguyen dang hop ",
+        "phone": "03989668081",
+        "address": "ah oi"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "8",
+            "name": "Sản phẩm 1",
+            "giá": 10000,
+            "binhLuan": "Đẹp zai vkl",
+            "kichThuoc": "112",
+            "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+          },
+          "qty": 1
+        },
+        {
+          "product": {
+            "id": "9",
+            "name": "Sản phẩm 2",
+            "giá": 10000,
+            "binhLuan": "Đẹp zai vkl",
+            "kichThuoc": 1,
+            "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+          },
+          "qty": 1
+        }
+      ],
+      "status": "done",
+      "total": 20000,
+      "discount": 0,
+      "shippingFee": 0,
+      "paymentMethod": "Momo"
+    },
+    {
+      "id": "fd7b",
+      "name": "0487",
+      "code": "DH294226",
+      "customer": {
+        "name": "nguyen dang hop 1",
+        "phone": "0398966808"
+      },
+      "items": [
+        {
+          "product": {
+            "id": "8",
+            "name": "Sản phẩm 1",
+            "giá": 10000,
+            "binhLuan": "Đẹp zai vkl",
+            "kichThuoc": "112",
+            "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+          },
+          "qty": 1
+        },
+        {
+          "product": {
+            "id": "d844",
+            "name": "Sản phẩm 4",
+            "giá": 12222,
+            "kichThuoc": "sdcsdf",
+            "binhLuan": "đsfsdf",
+            "hinhAnh": "https://i.pinimg.com/474x/61/a2/33/61a2336ae605a6e8bf251a131f0701bd.jpg"
+          },
+          "qty": 1
+        }
+      ],
+      "status": "done",
+      "total": 22222,
+      "discount": 0,
+      "shippingFee": 0,
+      "paymentMethod": "Momo"
+    }
+  ]
+}
